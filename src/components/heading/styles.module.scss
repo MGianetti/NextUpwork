@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+.heading {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 55px;
+  color: $color-dark-blue;
+  max-width: 730px;
+  text-align: center;
+  padding: 108px 0;
+
+  &__brand {
+    color: $color-brand;
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.button {
+  background-color: $color-dark-blue;
+  border-radius: $border-radius;
+  color: $color-white;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  margin: 80px 0;
+  padding: $btn-frame-y $btn-frame-x;
+  text-transform: uppercase;
+}

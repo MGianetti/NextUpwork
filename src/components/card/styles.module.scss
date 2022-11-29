@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+.card {
+  display: flex;
+  align-items: stretch;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  &__mediaContainer {
+    width: 183.5px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  &__imgWrapper {
+    display: flex;
+    position: relative;
+    flex: 1 1 auto;
+  }
+
+  &__textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    padding: 60px 40px;
+    background-color: $color-white;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.listItem {
+  list-style: none;
+  font-weight: 700;
+  line-height: 26px;
+
+  &::before {
+    content: "•";
+    color: $color-accent;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+  }
+}
